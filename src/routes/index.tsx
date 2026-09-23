@@ -116,16 +116,18 @@ function ProductCard({ p }: { p: Product }) {
           <h3 className="font-display text-xl text-ink">{p.name}</h3>
           <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{p.desc}</p>
         </div>
-        <div className="flex items-center justify-between gap-3 pt-1">
+        <div className="flex flex-col gap-3 pt-1">
           <span className="font-display text-lg font-semibold text-brass-deep">{p.price}</span>
           <a
-            href={waLink(`Hello, I'm interested in the ${p.name}. Could you share more details?`)}
+            href={waLink(
+              `Hello, I would like to order the ${p.name}. Please share the price and availability.`
+            )}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-primary px-3.5 py-2 text-xs font-medium text-primary-foreground transition-colors hover:bg-brass-deep"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-4 py-2.5 text-xs font-medium text-primary-foreground transition-colors hover:bg-brass-deep"
           >
-            <WhatsAppIcon className="h-3.5 w-3.5" />
-            Enquire
+            <WhatsAppIcon className="h-4 w-4" />
+            Order on WhatsApp
           </a>
         </div>
       </div>

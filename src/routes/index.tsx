@@ -149,7 +149,7 @@ function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
         <a href="#home" className="flex items-center gap-2.5">
           <span className="grid h-9 w-9 place-items-center rounded-full border border-brass/40 bg-brass-soft font-display text-lg font-bold text-brass-deep">
-            अ
+            श
           </span>
           <span className="font-display text-xl font-semibold tracking-tight text-ink">
             Shree Samarth <span className="text-brass-deep">Steel Furniture</span>

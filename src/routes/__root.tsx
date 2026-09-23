@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Aditya Brassware — Timeless Brass Cookware & Utensils" },
+      { title: "Shree Samarth Steel Furniture — Timeless Brass Cookware & Utensils" },
       {
         name: "description",
         content:
           "Discover beautifully crafted brass cookware and traditional Indian utensils made to bring timeless elegance to your kitchen. Explore the collection and enquire on WhatsApp.",
       },
-      { name: "author", content: "Aditya Brassware" },
-      { property: "og:title", content: "Aditya Brassware — Timeless Brass Cookware & Utensils" },
+      { name: "author", content: "Shree Samarth Steel Furniture" },
+      { property: "og:title", content: "Shree Samarth Steel Furniture — Timeless Brass Cookware & Utensils" },
       {
         property: "og:description",
         content:

@@ -24,13 +24,13 @@ import catServing from "@/assets/category-serving-ware.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aditya Brassware — Timeless Brass Cookware & Utensils" },
+      { title: "Shree Samarth Steel Furniture — Timeless Brass Cookware & Utensils" },
       {
         name: "description",
         content:
           "Discover beautifully crafted brass cookware and traditional Indian utensils made to bring timeless elegance to your kitchen.",
       },
-      { property: "og:title", content: "Aditya Brassware — Timeless Brass Cookware & Utensils" },
+      { property: "og:title", content: "Shree Samarth Steel Furniture — Timeless Brass Cookware & Utensils" },
       {
         property: "og:description",
         content:
@@ -51,7 +51,7 @@ function waLink(message: string) {
 }
 
 const GENERAL_ENQUIRY = waLink(
-  "Hello Aditya Brassware, I would like to enquire about your brass cookware and utensils."
+  "Hello Shree Samarth Steel Furniture, I would like to enquire about your brass cookware and utensils."
 );
 
 type Product = {
@@ -152,7 +152,7 @@ function Navbar() {
             अ
           </span>
           <span className="font-display text-xl font-semibold tracking-tight text-ink">
-            Aditya <span className="text-brass-deep">Brassware</span>
+            Shree Samarth <span className="text-brass-deep">Steel Furniture</span>
           </span>
         </a>
 
@@ -361,7 +361,7 @@ function WhyChooseUs() {
     <section className="bg-cream py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="text-center">
-          <SectionLabel>Why Aditya Brassware</SectionLabel>
+          <SectionLabel>Why Shree Samarth Steel Furniture</SectionLabel>
           <h2 className="mt-5 font-display text-4xl text-ink sm:text-5xl">Why Choose Us</h2>
         </div>
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -406,7 +406,7 @@ function About() {
             A Destination for Traditional Brass Kitchenware
           </h2>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-            Aditya Brassware is a destination for traditional brass cookware, utensils and
+            Shree Samarth Steel Furniture is a destination for traditional brass cookware, utensils and
             kitchenware. Each piece is chosen for its finish, feel and timeless appeal —
             cookware and serving ware meant to be used, treasured and passed on.
           </p>
@@ -497,7 +497,7 @@ function Footer() {
           <div>
             <a href="#home" className="flex items-center gap-2.5">
               <span className="grid h-9 w-9 place-items-center rounded-full border border-brass/40 bg-brass-soft font-display text-lg font-bold text-brass-deep">अ</span>
-              <span className="font-display text-xl font-semibold text-ink">Aditya <span className="text-brass-deep">Brassware</span></span>
+              <span className="font-display text-xl font-semibold text-ink">Shree Samarth <span className="text-brass-deep">Steel Furniture</span></span>
             </a>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
               Traditional Indian brass cookware and utensils, crafted to bring timeless
@@ -536,7 +536,7 @@ function Footer() {
           </div>
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row">
-          <p>© {new Date().getFullYear()} Aditya Brassware. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Shree Samarth Steel Furniture. All rights reserved.</p>
           <p>Crafted with brass tradition in mind.</p>
         </div>
       </div>
